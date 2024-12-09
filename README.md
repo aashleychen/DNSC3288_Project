@@ -77,9 +77,6 @@
 | **TotRmsAbvGrd**   | Input    | int      | Total rooms above grade (does not include bathrooms).                                                         |
 | **Fireplaces**     | Input    | int      | Number of fireplaces.                                                                                         |
 | **GarageType**     | Input    | object   | Garage location (`Attchd`, `Detchd`, etc)                                                                   |
-
-| Name               | Role     | Type     | Description                                                                                                   |
-|--------------------|----------|----------|---------------------------------------------------------------------------------------------------------------|
 | **GarageYrBlt**    | Input    | float    | Year garage was built.                                                                                        |
 | **GarageFinish**   | Input    | object   | Interior finish of the garage (`Fin`, `RFn`, `Unf`).                                                          |
 | **GarageCars**     | Input    | int      | Size of garage in car capacity.                                                                               |
