@@ -157,3 +157,26 @@ LGBMRegressor(objective='regression',
 
 #### Scatterplot of Features
 ![Scatterplot of Features](Scatterplot.png)
+
+# Ethical Considerations
+## Potential Negative Impacts
+### Math or Software Problems
+- Overfitting can result in poor models based on new data, leading to inaccurate information for decision-makers.  
+- Underfitting could lead to a model that performs well on the training data but poorly on new data.  
+- Imbalanced or biased datasets may cause the model to reinforce existing inequalities and misrepresent certain groups.  
+### Real-World Risks: **Who, What, When, or How?**  
+- **Home Buyers**: May be misled by overfit data, leading to overpriced homes and potential financial loss.  
+- **Stakeholders**: Inaccurate predictions can negatively impact buyers, sellers, and investors relying on housing price models.
+- 
+## Potential Uncertainties Relating to the Impacts of Using the Model
+### Math or Software Problems
+- It is uncertain if the model will produce the same outcomes when reused or adapted.  
+- Complex models may behave unpredictably under unusual conditions or when exposed to unforeseen variables.  
+### Real-World Risks: **Who, What, When, or How?**  
+- Predictions might unintentionally disadvantage certain neighborhoods or areas due to data bias or outliers.  
+- The model should **only** be used for educational purposes and not for real-world housing price predictions.  
+
+## Unexpected Results
+- **Outliers**: Exposure to new data outliers could cause unrealistic price predictions.  
+- **Anomalous Predictions**: Variables previously assumed insignificant might emerge as significant predictors, leading to counterintuitive or unexpected results.  
+- **Bias Amplification**: Small changes in the data may disproportionately influence predictions due to latent model biases.  
